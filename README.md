@@ -5,7 +5,7 @@ This is a web application analyzes sentiment from text. I built this using [Expr
 :point_right: https://text-sentiment-anaylyzer.onrender.com/
 
 ## Video Demo
-:point_right: https://youtu.be/Y393jGsafWk
+:point_right: https://youtu.be/yWKIV90vhJ4
 
 ## Getting Started
 First install the dependencies
