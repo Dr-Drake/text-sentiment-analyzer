@@ -77,7 +77,7 @@ function displayVeryNegativeEmote(){
 function analyzeSentiment(score) {
     scoreEl.innerText = score.toFixed(2);
 
-    if (score > 2.5) {
+    if (score > 0.5) {
         sentimentEl.innerText = 'Very positive';
         cardEl.classList.remove('positive');
         cardEl.classList.remove('neutral');
@@ -96,7 +96,7 @@ function analyzeSentiment(score) {
         displayPositiveEmote();
 
     } 
-    else if (score < -2.5) {
+    else if (score < -0.5) {
         sentimentEl.innerText = 'Very negative';
         cardEl.classList.remove('positive');
         cardEl.classList.remove('neutral');
