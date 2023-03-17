@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
-    "build": "yarn tsc && cpy \"src/views/**/*\" \"dist/src/views\" && cpy \"public\" \"dist\" && cpy \"uploads\" \"dist/\" && cpy \"src/scripts/**/*\" \"dist/src/scripts/\" ",
+    "build": "yarn tsc && cpy \"src/views/**/*\" \"dist/src/views\" && cpy \"public\" \"dist\"",
     "start": "node ./dist/src/index.js"
   },
   "author": "Ikem Ezechukwu",
