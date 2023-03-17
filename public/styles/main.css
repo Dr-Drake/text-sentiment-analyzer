@@ -1,0 +1,40 @@
+p{
+    margin: 0;
+}
+
+.analysis-card{
+    background-color: #FAF9F6;
+    width: 50%;
+    transition: background-color 0.3s;
+}
+
+#s-emote{
+    font-size: 2rem;
+    transition: all 0.3s;
+}
+
+.very-positive{
+    background-color: #2ce65d;
+}
+
+.positive{
+    background-color: #a9e8ba;
+}
+
+.neutral{
+    background-color: #ebeb8a;
+}
+
+.negative{
+    background-color: #eb9b94;
+}
+
+.very-negative{
+    background-color: #f2786d;
+}
+
+@media only screen and (max-width: 768px) {
+    .analysis-card{
+        width: 100%;
+    }
+}
