@@ -42,7 +42,7 @@ app.get('/analyze', (req, res) => {
 
     // console.log(sentimentScore); // Debug
     res.json({
-        score: sentimentScore
+        score: sentimentScore || 0
     });
 });
 
